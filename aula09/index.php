@@ -41,12 +41,29 @@
         }
 
     }
+
+    function escrever(){
+        return "TESTE";
+    }
+
 ?>
+
+<h id="texto"></h>
+
+<script type="text/javascript" language="JavaScript">
+
+    function escrever(){
+        document.getElementById("texto").innerHTML = <?php escrever(); ?>;
+    };
+
+</script>
 
 <form method="post" action="?autenticar=true">
     E-mail: <input type="text" name="email"><br>
     Senha: <input type="password" name="senha">
     <input type="submit" value="ENVIAR">
+
+    <input type="button" value="TESTE" onclick="escrever()">
 
 </form>
 </body>
