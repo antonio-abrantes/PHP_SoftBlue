@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESTADOS>
+  <ESTADO>
+    <ID Sul="Sim">1</ID>
+    <DESCRIPTION>PR</DESCRIPTION>
+  </ESTADO>
+  <ESTADO>
+    <ID Sul="Sim">2</ID>
+    <DESCRIPTION>RS</DESCRIPTION>
+  </ESTADO>
+  <ESTADO>
+    <ID Sul="Sim">3</ID>
+    <DESCRIPTION>SC</DESCRIPTION>
+  </ESTADO>
+  <ESTADO>
+    <ID Sul="Não">4</ID>
+    <DESCRIPTION>SP</DESCRIPTION>
+  </ESTADO>
+  <ESTADO>
+    <ID Sul="Não">5</ID>
+    <DESCRIPTION>RJ</DESCRIPTION>
+  </ESTADO>
+</ESTADOS>
